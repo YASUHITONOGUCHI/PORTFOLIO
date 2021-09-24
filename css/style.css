@@ -1,0 +1,187 @@
+.HEADERTOP{
+    width: 100%;
+    height: 90vh;
+    position: relative;
+    filter: grayscale(100%);
+    background-color: ;
+    background-image: repeating-linear-gradient(0deg, transparent, transparent 6px, rgba(255,255,255,.4) 6px, rgba(255,255,255,.4) 9px), url(../img/16.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: screen;
+    margin-bottom: 15em;
+}
+.toplogo1{
+    text-align: center;
+    opacity: 0;
+    margin-top: -2em;
+}
+.toplogo1.show{
+    text-align: center;
+    opacity: 1;
+    margin-top: 0.9em;
+    transition: all 1.5s;
+}
+.toplogo2{
+    display: block;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.aboutlogo{
+    height: 20%;
+    text-align: center;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    background-color: #b4b4b4;
+    background-image: repeating-linear-gradient(0deg, transparent, transparent 5px, rgba(255,255,255,.4) 5px, rgba(255,255,255,.4) 10px), url(../img/18.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: screen;
+}
+.workslogo{
+    height: 20%;
+    text-align: center;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    background-color: #b4b4b4;
+    background-image: repeating-linear-gradient(0deg, transparent, transparent 5px, rgba(255,255,255,.4) 5px, rgba(255,255,255,.4) 10px), url(../img/19.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: screen;
+}
+.ABOUT{
+    width: 100%;
+    height: 95vh;
+    padding-top: 70px;
+    margin-bottom: 10em;
+}
+.abouttext{
+    width: 50%;
+    align-items: center;
+    justify-content: space-between;
+    text-align: justify;
+    position: absolute;
+    padding-top: 5em;
+    padding-left: 5%;
+}
+.abouttext h3{
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.3em;
+    margin: 1em 0;
+}
+.abouttext p{
+    font-size: 12px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 2.5em;
+    letter-spacing: 0.3em;
+    text-align: justify;
+    margin: 1em 0;
+}
+.aboutme{
+    width: 20%;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    right: 70px;
+    padding-top: 10em;
+    padding-right: 5%;
+}
+.aboutme img{
+    position: relative;
+    filter: grayscale(100%);
+    background-color: #f2f3f4;
+    background-image: -webkit-gradient(linear, 0 0, 100% 100%,color-stop(.25, #dddddd), color-stop(.25, transparent),color-stop(.5, transparent), color-stop(.5, #dddddd),color-stop(.75, #dddddd), color-stop(.75, transparent),to(transparent));
+    -webkit-background-size: 14px 14px;
+}
+.WORKS{
+    width: 100%;
+    height: 95vh;
+    padding-top: 70px;
+}
+.worksimg{
+    width: 100%;
+    height: 80%;
+    text-align: center;
+    vertical-align: middle;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(../img/17.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: screen;
+}
+.worksimg img{
+    background-color: #ffffff;
+    transition: .3s;
+}
+.worksimg img:hover{
+    filter: grayscale(0);
+    transform: scale(1.05);
+    background-color: transparent;
+}
+.title{
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    float: left;
+    margin-left: 0.5em;
+    margin-bottom: 4em;
+    color: #575757;
+    
+}
+.number{
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    float: right;
+    margin-right: 0.5em;
+    color: #888888;
+}
+.soft{
+    width: 300px;
+    position: absolute;
+    transform: rotate(90deg);
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.2em;
+    transform-origin: right;
+    text-align: right;
+    padding-right: 2em;
+    color: #888888;
+}
+.workleft{
+    width: 300px;
+    padding: 0 5em;
+    margin: auto 0;
+}
+.workcenter{
+    width: 300px;
+    padding: 0 5em;
+    margin: auto 0;
+}
+.workright{
+    width: 300px;
+    padding: 0 5em;
+    margin: auto 0;
+}
+.worksimg img{
+    width: 100%;
+}
+.imgtop{
+    padding-bottom: 1em;
+}
+.imgbottom{
+    padding-bottom: 1em;
+}
